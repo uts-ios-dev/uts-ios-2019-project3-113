@@ -16,7 +16,11 @@ class ViewController: UIViewController {
         // Test vince
     }
 
-
+    @IBAction func introLoginButton(_ sender: Any) {
+        performSegue(withIdentifier: "toLoginView", sender: self)
+    }
+    
+    
 }
 
 // This is DogWalk
