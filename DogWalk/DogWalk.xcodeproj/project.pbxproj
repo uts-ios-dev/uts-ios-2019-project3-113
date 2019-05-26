@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7111C7E2229A457C00004618 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111C7E1229A457C00004618 /* TableViewController.swift */; };
+		7111C7E5229A4BEE00004618 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111C7E3229A4BEE00004618 /* TableViewCell.swift */; };
+		7111C7E6229A4BEE00004618 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7111C7E4229A4BEE00004618 /* TableViewCell.xib */; };
 		C156D64B2289514D006C8B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156D64A2289514D006C8B10 /* AppDelegate.swift */; };
 		C156D64D2289514D006C8B10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156D64C2289514D006C8B10 /* ViewController.swift */; };
 		C156D6502289514D006C8B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C156D64E2289514D006C8B10 /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7111C7E1229A457C00004618 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7111C7E3229A4BEE00004618 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7111C7E4229A4BEE00004618 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		C156D6472289514C006C8B10 /* DogWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C156D64A2289514D006C8B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C156D64C2289514D006C8B10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				C156D6562289514E006C8B10 /* LaunchScreen.storyboard */,
 				C156D6592289514E006C8B10 /* Info.plist */,
 				C156D6512289514D006C8B10 /* DogWalk.xcdatamodeld */,
+				7111C7E1229A457C00004618 /* TableViewController.swift */,
+				7111C7E3229A4BEE00004618 /* TableViewCell.swift */,
+				7111C7E4229A4BEE00004618 /* TableViewCell.xib */,
 			);
 			path = DogWalk;
 			sourceTree = "<group>";
@@ -242,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C156D6582289514E006C8B10 /* LaunchScreen.storyboard in Resources */,
+				7111C7E6229A4BEE00004618 /* TableViewCell.xib in Resources */,
 				C156D6552289514E006C8B10 /* Assets.xcassets in Resources */,
 				C156D6502289514D006C8B10 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B5BEE42293F0EB004A79F9 /* loginViewController.swift in Sources */,
+				7111C7E5229A4BEE00004618 /* TableViewCell.swift in Sources */,
+				7111C7E2229A457C00004618 /* TableViewController.swift in Sources */,
 				C1B5BEE82293F45B004A79F9 /* MapViewController.swift in Sources */,
 				C156D64D2289514D006C8B10 /* ViewController.swift in Sources */,
 				C156D6532289514D006C8B10 /* DogWalk.xcdatamodeld in Sources */,
