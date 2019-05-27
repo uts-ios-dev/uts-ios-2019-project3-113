@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44384CD9229BC6500051D134 /* DogLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44384CD8229BC6500051D134 /* DogLocation.swift */; };
+		44384CDF229BCAD20051D134 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44384CDE229BCAD20051D134 /* DogViewController.swift */; };
 		7111C7E2229A457C00004618 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111C7E1229A457C00004618 /* TableViewController.swift */; };
 		7111C7E5229A4BEE00004618 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111C7E3229A4BEE00004618 /* TableViewCell.swift */; };
 		7111C7E6229A4BEE00004618 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7111C7E4229A4BEE00004618 /* TableViewCell.xib */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44384CD8229BC6500051D134 /* DogLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogLocation.swift; sourceTree = "<group>"; };
+		44384CDE229BCAD20051D134 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
 		7111C7E1229A457C00004618 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7111C7E3229A4BEE00004618 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		7111C7E4229A4BEE00004618 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -88,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44384CD7229BBDF30051D134 /* Mapkit */ = {
+			isa = PBXGroup;
+			children = (
+				44384CD8229BC6500051D134 /* DogLocation.swift */,
+			);
+			path = Mapkit;
+			sourceTree = "<group>";
+		};
 		C156D63E2289514C006C8B10 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +123,7 @@
 		C156D6492289514C006C8B10 /* DogWalk */ = {
 			isa = PBXGroup;
 			children = (
+				44384CD7229BBDF30051D134 /* Mapkit */,
 				C156D64A2289514D006C8B10 /* AppDelegate.swift */,
 				C156D64C2289514D006C8B10 /* ViewController.swift */,
 				C1B5BEE72293F45B004A79F9 /* MapViewController.swift */,
@@ -124,6 +137,7 @@
 				7111C7E1229A457C00004618 /* TableViewController.swift */,
 				7111C7E3229A4BEE00004618 /* TableViewCell.swift */,
 				7111C7E4229A4BEE00004618 /* TableViewCell.xib */,
+				44384CDE229BCAD20051D134 /* DogViewController.swift */,
 			);
 			path = DogWalk;
 			sourceTree = "<group>";
@@ -285,7 +299,9 @@
 				C156D64D2289514D006C8B10 /* ViewController.swift in Sources */,
 				C156D6532289514D006C8B10 /* DogWalk.xcdatamodeld in Sources */,
 				C1B5BEE62293F440004A79F9 /* ListViewController.swift in Sources */,
+				44384CDF229BCAD20051D134 /* DogViewController.swift in Sources */,
 				C156D64B2289514D006C8B10 /* AppDelegate.swift in Sources */,
+				44384CD9229BC6500051D134 /* DogLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
