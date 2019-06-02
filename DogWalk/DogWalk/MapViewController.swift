@@ -11,6 +11,9 @@ import MapKit
 
 class MapViewController: UIViewController {
     
+    @IBOutlet weak var mapView: MKMapView!
+    @IBAction func unwindToMap(_ sender: UIStoryboardSegue) {}
+    
     @IBAction func toList(_ sender: Any) {
         performSegue(withIdentifier: "backToList", sender: self)
     }
@@ -18,9 +21,6 @@ class MapViewController: UIViewController {
     @IBAction func toLogin(_ sender: Any) {
         performSegue(withIdentifier: "backToLoginMap", sender: self)
     }
-    
-    @IBOutlet weak var mapView: MKMapView!
-    @IBAction func unwindToMap(_ sender: UIStoryboardSegue) {}
     
     override func viewDidLoad() {
         super.viewDidLoad()

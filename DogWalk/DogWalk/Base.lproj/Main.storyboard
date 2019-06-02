@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R3w-xe-4ah">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R3w-xe-4ah">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -478,6 +478,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="NLS-zw-GmO"/>
                     <connections>
+                        <outlet property="mapView" destination="T9x-Sq-ODB" id="Ahm-3A-UzL"/>
                         <segue destination="zdL-6t-lET" kind="show" identifier="backToList" id="iUr-AB-6jX"/>
                         <segue destination="0hH-Xv-XLS" kind="show" identifier="backToLoginMap" id="oKb-sC-g5C"/>
                         <segue destination="7pl-s6-pDT" kind="show" identifier="ianSegue" id="EZ3-dg-8fn"/>
@@ -647,15 +648,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pom" width="1185" height="790"/>
+        <image name="Pom" width="1185.5" height="790.5"/>
         <image name="backButton" width="256" height="256"/>
-        <image name="logo" width="167" height="167"/>
-        <image name="pug" width="500" height="333"/>
+        <image name="logo" width="167.5" height="167"/>
+        <image name="pug" width="500" height="333.5"/>
         <image name="shib" width="296" height="296"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fmJ-Vn-IEc"/>
-        <segue reference="Tbg-xS-yua"/>
-        <segue reference="5jc-H4-9IE"/>
+        <segue reference="iUr-AB-6jX"/>
+        <segue reference="oKb-sC-g5C"/>
     </inferredMetricsTieBreakers>
 </document>
