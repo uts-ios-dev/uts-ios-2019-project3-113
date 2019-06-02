@@ -9,6 +9,8 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    @IBAction func unwindToList(_ sender: UIStoryboardSegue) {}
 
     var sampleDogs:[Dictionary<String, Any>] = [
         [
