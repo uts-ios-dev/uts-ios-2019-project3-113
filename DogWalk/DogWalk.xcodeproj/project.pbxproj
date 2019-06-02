@@ -11,7 +11,6 @@
 		7111C7E2229A457C00004618 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111C7E1229A457C00004618 /* TableViewController.swift */; };
 		7111C7E5229A4BEE00004618 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111C7E3229A4BEE00004618 /* TableViewCell.swift */; };
 		7111C7E6229A4BEE00004618 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7111C7E4229A4BEE00004618 /* TableViewCell.xib */; };
-		7111C7F022A34CF000004618 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111C7EF22A34CF000004618 /* detailViewController.swift */; };
 		C156D64B2289514D006C8B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156D64A2289514D006C8B10 /* AppDelegate.swift */; };
 		C156D64D2289514D006C8B10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156D64C2289514D006C8B10 /* ViewController.swift */; };
 		C156D6502289514D006C8B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C156D64E2289514D006C8B10 /* Main.storyboard */; };
@@ -47,7 +46,6 @@
 		7111C7E1229A457C00004618 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7111C7E3229A4BEE00004618 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		7111C7E4229A4BEE00004618 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		7111C7EF22A34CF000004618 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		C156D6472289514C006C8B10 /* DogWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C156D64A2289514D006C8B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C156D64C2289514D006C8B10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				7111C7E1229A457C00004618 /* TableViewController.swift */,
 				7111C7E3229A4BEE00004618 /* TableViewCell.swift */,
 				7111C7E4229A4BEE00004618 /* TableViewCell.xib */,
-				7111C7EF22A34CF000004618 /* detailViewController.swift */,
 				44384CE022A3B86E0051D134 /* DogLocation.swift */,
 			);
 			path = DogWalk;
@@ -287,7 +284,6 @@
 				C1B5BEE42293F0EB004A79F9 /* loginViewController.swift in Sources */,
 				44384CE122A3B86E0051D134 /* DogLocation.swift in Sources */,
 				7111C7E5229A4BEE00004618 /* TableViewCell.swift in Sources */,
-				7111C7F022A34CF000004618 /* detailViewController.swift in Sources */,
 				7111C7E2229A457C00004618 /* TableViewController.swift in Sources */,
 				C1B5BEE82293F45B004A79F9 /* MapViewController.swift in Sources */,
 				C156D64D2289514D006C8B10 /* ViewController.swift in Sources */,
