@@ -46,7 +46,7 @@ class MapViewController: UIViewController {
         mapView.addAnnotation(Sussan)
         
         // Show Shiba Inu on map
-        let Soot = DogLocation(title: "Soot", suburb: "Surry Hills", breed: "Mini Pom", coordinate: CLLocationCoordinate2D(latitude: -33.8861, longitude: 151.2111))
+        let Soot = DogLocation(title: "Soot", suburb: "Surry Hills", breed: "Pomeranian", coordinate: CLLocationCoordinate2D(latitude: -33.8861, longitude: 151.2111))
         mapView.delegate = self
         mapView.addAnnotation(Soot)
     }
@@ -85,15 +85,15 @@ extension MapViewController: MKMapViewDelegate {
         // location.mapItem().openInMaps(launchOptions: launchOptions)
         
         if control == view.rightCalloutAccessoryView && view.annotation?.title == "Ian" {
-            performSegue(withIdentifier: "firstViewSegue", sender: nil)
+            performSegue(withIdentifier: "ianSegue", sender: nil)
         }
             
         else if control == view.rightCalloutAccessoryView && view.annotation?.title == "Sussan" {
-            performSegue(withIdentifier: "secondViewSegue", sender: nil)
+            performSegue(withIdentifier: "sussanSegue", sender: nil)
         }
             
         else if control == view.rightCalloutAccessoryView && view.annotation?.title == "Soot" {
-            performSegue(withIdentifier: "thirdViewSegue", sender: nil)
+            performSegue(withIdentifier: "sootSegue", sender: nil)
         }
     }
 }
