@@ -15,13 +15,13 @@ class TableViewController: UITableViewController {
             "picture": #imageLiteral(resourceName: "pug"),
             "name" : "Ian",
             "breed" : "Breed: Pug",
-            "location" : "Location: Ultimo"
+            "location" : "Location: Darling Harbour"
         ],
         [
             "picture": #imageLiteral(resourceName: "shib"),
-            "name" : "Susan",
+            "name" : "Sussan",
             "breed" : "Breed: Shiba Inu",
-            "location" : "Location: Darlington"
+            "location" : "Location: Pyrmont"
         ],
         [
             "picture": #imageLiteral(resourceName: "Pom"),
@@ -64,7 +64,7 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "toDetail", sender: self)
+        performSegue(withIdentifier: "toPug", sender: self)
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
