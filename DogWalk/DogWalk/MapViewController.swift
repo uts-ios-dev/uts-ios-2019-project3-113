@@ -19,6 +19,9 @@ class MapViewController: UIViewController {
         performSegue(withIdentifier: "backToLoginMap", sender: self)
     }
     
+    @IBOutlet weak var mapView: MKMapView!
+    @IBAction func unwindToMap(_ sender: UIStoryboardSegue) {}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -50,7 +53,7 @@ class MapViewController: UIViewController {
 }
 
 // Configure annotation
-extension ViewController: MKMapViewDelegate {
+extension MapViewController: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
         guard let annotation = annotation as? DogLocation
