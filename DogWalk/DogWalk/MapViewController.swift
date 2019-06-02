@@ -36,12 +36,12 @@ class MapViewController: UIViewController {
         centerMapOnLocation(location: initialLocation)
         
         // Show Pug location on map
-        let Ian = DogLocation(title: "Ian", suburb: "Darling Harbour", breed: "Pug", coordinate: CLLocationCoordinate2D(latitude: -33.8749, longitude: 151.2009))
+        let Ian = DogLocation(title: "Ian", suburb: "Ultimo", breed: "Pug", coordinate: CLLocationCoordinate2D(latitude: -33.8822, longitude: 151.1970))
         mapView.delegate = self
         mapView.addAnnotation(Ian)
         
         // Show Shiba Inu on map
-        let Sussan = DogLocation(title: "Sussan", suburb: "Pyrmont", breed: "Shiba Inu", coordinate: CLLocationCoordinate2D(latitude: -33.8737, longitude: 151.1957))
+        let Sussan = DogLocation(title: "Sussan", suburb: "Darlington", breed: "Shiba Inu", coordinate: CLLocationCoordinate2D(latitude: -33.8903, longitude: 151.1966))
         mapView.delegate = self
         mapView.addAnnotation(Sussan)
         
