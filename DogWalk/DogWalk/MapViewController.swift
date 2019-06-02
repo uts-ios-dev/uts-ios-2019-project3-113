@@ -85,15 +85,15 @@ extension MapViewController: MKMapViewDelegate {
         // location.mapItem().openInMaps(launchOptions: launchOptions)
         
         if control == view.rightCalloutAccessoryView && view.annotation?.title == "Ian" {
-            performSegue(withIdentifier: "firstViewSegue", sender: nil)
+            performSegue(withIdentifier: "ianSegue", sender: nil)
         }
             
         else if control == view.rightCalloutAccessoryView && view.annotation?.title == "Sussan" {
-            performSegue(withIdentifier: "secondViewSegue", sender: nil)
+            performSegue(withIdentifier: "sussanSegue", sender: nil)
         }
             
         else if control == view.rightCalloutAccessoryView && view.annotation?.title == "Soot" {
-            performSegue(withIdentifier: "thirdViewSegue", sender: nil)
+            performSegue(withIdentifier: "sootSegue", sender: nil)
         }
     }
 }
