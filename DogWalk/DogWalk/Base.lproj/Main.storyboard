@@ -222,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqx-ns-mnx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="892" y="1428"/>
+            <point key="canvasLocation" x="891" y="1467"/>
         </scene>
         <!--List View Controller-->
         <scene sceneID="7Aa-F0-ady">
@@ -419,10 +419,10 @@
             </objects>
             <point key="canvasLocation" x="4050.7246376811599" y="-403.125"/>
         </scene>
-        <!--Item-->
+        <!--Map View Controller-->
         <scene sceneID="bff-66-Xm3">
             <objects>
-                <viewController id="RP3-C5-DPv" customClass="MapViewController" customModule="DogWalk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RP3-C5-DPv" userLabel="Map View Controller" customClass="MapViewController" customModule="DogWalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hOn-9V-EYO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
