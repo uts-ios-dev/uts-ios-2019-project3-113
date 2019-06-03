@@ -37,6 +37,8 @@ class TableViewController: UITableViewController {
         
         let cellNib = UINib(nibName: "TableViewCell", bundle: nil)
         self.tableView.register(cellNib, forCellReuseIdentifier: "cell")
+        
+        print("View did load")
 
     }
 
@@ -64,7 +66,21 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "toPug", sender: self)
+        
+        let rowIndex = tableView.indexPathForSelectedRow![1]
+        
+        if rowIndex == 0{
+            performSegue(withIdentifier: "toPug", sender: self)
+        }
+        
+        if rowIndex == 1{
+            performSegue(withIdentifier: "toShib", sender: self)
+        }
+        
+        if  rowIndex == 2{
+            performSegue(withIdentifier: "toPom", sender: self)
+        }
+        
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
