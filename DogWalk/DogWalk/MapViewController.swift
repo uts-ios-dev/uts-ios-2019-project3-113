@@ -40,12 +40,12 @@ class MapViewController: UIViewController {
         mapView.delegate = self
         mapView.addAnnotation(Ian)
         
-        // Show Shiba Inu on map
+        // Show Shiba Inu location on map
         let Sussan = DogLocation(title: "Sussan", suburb: "Darlington", breed: "Shiba Inu", coordinate: CLLocationCoordinate2D(latitude: -33.8903, longitude: 151.1966))
         mapView.delegate = self
         mapView.addAnnotation(Sussan)
         
-        // Show Shiba Inu on map
+        // Show Pomeranian location on map
         let Soot = DogLocation(title: "Soot", suburb: "Surry Hills", breed: "Pomeranian", coordinate: CLLocationCoordinate2D(latitude: -33.8861, longitude: 151.2111))
         mapView.delegate = self
         mapView.addAnnotation(Soot)
@@ -78,6 +78,7 @@ extension MapViewController: MKMapViewDelegate {
         return view
     }
     
+    // Navigation function to different view controllers
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         /// For GPRS routing
         // let location = view.annotation as! DogLocation
