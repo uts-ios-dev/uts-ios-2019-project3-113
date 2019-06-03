@@ -20,7 +20,6 @@
 		C156D6632289514E006C8B10 /* DogWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156D6622289514E006C8B10 /* DogWalkTests.swift */; };
 		C156D66E2289514E006C8B10 /* DogWalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156D66D2289514E006C8B10 /* DogWalkUITests.swift */; };
 		C1B5BEE42293F0EB004A79F9 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5BEE32293F0EB004A79F9 /* loginViewController.swift */; };
-		C1B5BEE62293F440004A79F9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5BEE52293F440004A79F9 /* ListViewController.swift */; };
 		C1B5BEE82293F45B004A79F9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5BEE72293F45B004A79F9 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +60,6 @@
 		C156D66D2289514E006C8B10 /* DogWalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWalkUITests.swift; sourceTree = "<group>"; };
 		C156D66F2289514E006C8B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1B5BEE32293F0EB004A79F9 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		C1B5BEE52293F440004A79F9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C1B5BEE72293F45B004A79F9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,7 +114,6 @@
 				C156D64A2289514D006C8B10 /* AppDelegate.swift */,
 				C156D64C2289514D006C8B10 /* ViewController.swift */,
 				C1B5BEE72293F45B004A79F9 /* MapViewController.swift */,
-				C1B5BEE52293F440004A79F9 /* ListViewController.swift */,
 				C1B5BEE32293F0EB004A79F9 /* loginViewController.swift */,
 				C156D64E2289514D006C8B10 /* Main.storyboard */,
 				C156D6542289514E006C8B10 /* Assets.xcassets */,
@@ -288,7 +285,6 @@
 				C1B5BEE82293F45B004A79F9 /* MapViewController.swift in Sources */,
 				C156D64D2289514D006C8B10 /* ViewController.swift in Sources */,
 				C156D6532289514D006C8B10 /* DogWalk.xcdatamodeld in Sources */,
-				C1B5BEE62293F440004A79F9 /* ListViewController.swift in Sources */,
 				C156D64B2289514D006C8B10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
