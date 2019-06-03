@@ -159,6 +159,8 @@
                     <navigationItem key="navigationItem" id="WWB-ZH-lxg"/>
                     <connections>
                         <segue destination="7pl-s6-pDT" kind="show" identifier="toPug" id="ceS-ZH-ZJp"/>
+                        <segue destination="oXx-uk-DyM" kind="show" identifier="toShib" id="X1s-43-hKd"/>
+                        <segue destination="q7E-oM-iay" kind="show" identifier="toPom" id="dRR-jv-e8x"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="589-KG-SuE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -430,6 +432,8 @@
         <image name="shib" width="592" height="592"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EZ3-dg-8fn"/>
+        <segue reference="dRR-jv-e8x"/>
+        <segue reference="X1s-43-hKd"/>
+        <segue reference="ceS-ZH-ZJp"/>
     </inferredMetricsTieBreakers>
 </document>
