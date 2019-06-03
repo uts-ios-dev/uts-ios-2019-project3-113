@@ -284,16 +284,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shib" translatesAutoresizingMaskIntoConstraints="NO" id="uBi-8A-z3V">
                                 <rect key="frame" x="41" y="139" width="281" height="151"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-yo-FU4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-yo-FU4">
                                 <rect key="frame" x="20" y="44" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="BACK TO MAP"/>
                                 <connections>
                                     <segue destination="yxQ-TE-ync" kind="unwind" unwindAction="unwindToMap:" id="G89-vR-BrQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Darlington" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGC-SD-s4X">
-                                <rect key="frame" x="146" y="530" width="80" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Darlington" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGC-SD-s4X">
+                                <rect key="frame" x="155" y="529" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -305,13 +304,16 @@
                             <constraint firstItem="6q2-Oy-oLp" firstAttribute="leading" secondItem="t2a-X6-xsd" secondAttribute="leading" constant="158" id="8De-2S-O4H"/>
                             <constraint firstItem="uBi-8A-z3V" firstAttribute="top" secondItem="t2a-X6-xsd" secondAttribute="top" constant="51" id="BEg-fx-7GD"/>
                             <constraint firstItem="6q2-Oy-oLp" firstAttribute="top" secondItem="uBi-8A-z3V" secondAttribute="bottom" constant="73" id="DWL-qs-zfc"/>
+                            <constraint firstItem="uBi-8A-z3V" firstAttribute="top" secondItem="Mvr-yo-FU4" secondAttribute="bottom" constant="65" id="EWW-im-GYy"/>
                             <constraint firstItem="6q2-Oy-oLp" firstAttribute="centerX" secondItem="IM1-KK-EHT" secondAttribute="centerX" id="Nxb-f5-IQy"/>
                             <constraint firstItem="YGC-SD-s4X" firstAttribute="top" secondItem="IM1-KK-EHT" secondAttribute="bottom" constant="65" id="RcD-0z-eZ0"/>
                             <constraint firstItem="t2a-X6-xsd" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YGC-SD-s4X" secondAttribute="trailing" symbolic="YES" id="U3A-2o-cdp"/>
                             <constraint firstItem="6q2-Oy-oLp" firstAttribute="top" secondItem="s5T-6W-uAB" secondAttribute="top" constant="363" id="b2G-Wb-QNF"/>
                             <constraint firstItem="YGC-SD-s4X" firstAttribute="leading" secondItem="t2a-X6-xsd" secondAttribute="leading" constant="155" id="mlk-Jv-FW0"/>
+                            <constraint firstItem="Mvr-yo-FU4" firstAttribute="leading" secondItem="s5T-6W-uAB" secondAttribute="leadingMargin" id="s5G-Kf-cDC"/>
                             <constraint firstItem="t2a-X6-xsd" firstAttribute="trailing" secondItem="uBi-8A-z3V" secondAttribute="trailing" constant="92" id="wQf-4u-RZi"/>
                             <constraint firstItem="IM1-KK-EHT" firstAttribute="top" secondItem="6q2-Oy-oLp" secondAttribute="bottom" constant="59" id="y11-Fy-Oke"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mvr-yo-FU4" secondAttribute="trailing" constant="20" symbolic="YES" id="zP8-oI-qA8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t2a-X6-xsd"/>
                     </view>
@@ -424,10 +426,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pom" width="2371" height="1581"/>
-        <image name="logo" width="335" height="334"/>
-        <image name="pug" width="1000" height="667"/>
-        <image name="shib" width="592" height="592"/>
+        <image name="Pom" width="1185" height="790"/>
+        <image name="logo" width="167" height="167"/>
+        <image name="pug" width="500" height="333"/>
+        <image name="shib" width="296" height="296"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="EZ3-dg-8fn"/>
