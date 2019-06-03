@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func introLoginButton(_ sender: Any) {
-        performSegue(withIdentifier: "toLoginView", sender: self)
+        performSegue(withIdentifier: "showDynamicListView", sender: self)
     }
     
     
